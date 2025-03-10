@@ -69,6 +69,12 @@ ul {
     gap: 20px;
   }
 
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .grid-container, .previous-grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
   .about-me {
     background-color:#E7D8C9;
     border-radius: 20px;
